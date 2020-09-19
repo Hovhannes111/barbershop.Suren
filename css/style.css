@@ -1,0 +1,488 @@
+.banner {
+    width: 100%;
+    background-image: url('img/photo2-compressor-13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.preheader {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(39, 37, 36);
+    opacity: 0.9;
+    position: fixed;
+    z-index: 2;
+}
+
+.icon1 {
+    float: right;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+
+}
+
+.icon1 a {
+    color: white;
+}
+
+.icon1 a:hover {
+    color: #ffb307;
+}
+
+.icon1 a {
+    padding: 6px;
+}
+
+.bar {
+    display: none;
+}
+
+
+.img1 {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 26px;
+    margin-top: 1%;
+}
+
+.nav {
+
+    float: right;
+    margin-right: 20%;
+    margin-top: 1.5%;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 auto;
+}
+
+.nav-link:hover {
+    color: #ffb307;
+}
+
+.text1 {
+    width: 100%;
+    max-width: inherit;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    color: white;
+}
+
+.h1dend {
+    font-family: 'Alegreya', serif;
+}
+
+.icon2 {
+    font-size: 4rem;
+}
+
+
+.text2 {
+
+    color: #b77512;
+    margin-left: -30%;
+
+}
+
+.img2 {
+    width: 100%;
+    max-width: 443px;
+    height: 600px;
+}
+
+
+.banner2 {
+    padding: 20px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.banner2 .row {
+    justify-content: center;
+}
+
+.rcontent {
+
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.rcontent2 {
+    height: 394px;
+
+
+}
+
+.banner3 {
+    margin: 0 auto;
+    background-image: url(img/129706990.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.uslug {
+    display: flex;
+    justify-content: center;
+    height: 475px;
+    align-items: center;
+    font-size: 23px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.galery {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.img_container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0822a2;
+}
+
+.img_container:hover .overlay {
+    opacity: 0.5;
+}
+
+.img_container i {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.h1 {
+
+    color: #b77512;
+
+}
+
+
+.img:hover {
+    opacity: 0.5;
+}
+
+.img {
+    width: 100%;
+    max-width: 390px;
+    margin-left: 1%;
+}
+
+.network {
+
+    margin: 0 auto;
+    background-image: url(img/barbershop-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.bgform {
+    margin: 0 auto;
+    background-image: url(img/1234.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 326px;
+    align-items: center;
+}
+
+.btn1 {
+    width: 298px;
+    height: 40px;
+}
+
+.btn2 {
+    width: 598px;
+    height: 40px;
+}
+
+.inputnet {
+    margin-top: 6%;
+}
+
+
+.btn3 {
+    width: 100%;
+    max-width: 606px;
+    color: white;
+    background-color: #775014c2;
+    border-color: white;
+
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.col {
+    height: 240px;
+    margin-left: 2%;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(247, 160, 84);
+}
+
+
+/*tazza css*/
+html, body, div, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #262626;
+    background: #f4f4f4;
+    font: normal 12px/18px Verdana, sans-serif;
+}
+
+#content {
+    width: 400px;
+    margin: 40px auto 0 auto;
+    padding: 0 60px 30px 60px;
+    border: solid 1px #cbcbcb;
+    background: #fafafa;
+    -moz-box-shadow: 0px 0px 10px #cbcbcb;
+    -webkit-box-shadow: 0px 0px 10px #cbcbcb;
+}
+
+h1 {
+    margin: 30px 0 15px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+h1 span {
+    font-size: 50%;
+    letter-spacing: -0.05em;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    line-height: 1px;
+    background: #E5E5E5;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 7px 0;
+}
+
+a {
+    outline: none;
+}
+
+a img {
+    border: 1px solid #BBB;
+    padding: 2px;
+    margin: 10px 20px 10px 0;
+    vertical-align: top;
+}
+
+a img.last {
+    margin-right: 0;
+}
+
+ul {
+    margin-bottom: 24px;
+    padding-left: 30px;
+}
+
+.fa-search {
+    cursor: pointer;
+}
+
+/*@media(max-width: 990px) {*/
+/*  .nav {*/
+/*	  margin-right:14% !important;*/
+/*  }*/
+
+/*}*/
+
+/*@media(max-width: 768px) {*/
+/*  .nav {*/
+/*	  flex-direction:column !important;*/
+/*	 .*/
+/*  }*/
+/*  .nav-link{*/
+/*	  color:red !important;*/
+/*  }*/
+/*  */
+/*  .row{*/
+/*	  flex-direction:column !important;*/
+/*  }*/
+/*  .map {*/
+/*	  width:97% !important;*/
+/*  }*/
+/*  */
+/*  @media(max-width: 768px) {*/
+/*  .section {*/
+/*	  flex-direction:column !important;*/
+/*	 .*/
+/*  }*/
+/*}*/
+
+/*@media(max-width: 768px) {*/
+/*  .bar {*/
+/*	  display:block;*/
+/*	 */
+/*  }*/
+/*}*/
+/*}*/
+
+/*@media(max-width: 603px) {*/
+/*  .barber {*/
+/*	  font-size:4rem !important;*/
+/*  }*/
+
+/*}*/
+
+/*@media(max-width: 675px) {*/
+/*  .form {*/
+/*	 height:343px  !important;*/
+/*  }*/
+
+/*}*/
+
+/*@media(max-width: 769px) {*/
+/*  .text2 {*/
+/*	 font-size:3rem;*/
+/*	 margin-left:auto;*/
+/*  }*/
+
+/*}*/
+
+@media (max-width: 1000px) {
+    #navbar {
+        display: none;
+        position: absolute;
+        left: 740px;
+    }
+
+    #hamburg_menu {
+        display: block;
+    }
+
+    #icons {
+        display: flex;
+    }
+}
+@media (max-width: 950px) {
+    #navbar{
+        left: 690px;
+    }
+}
+@media (max-width: 900px) {
+    #navbar{
+        left: 640px;
+    }
+}
+@media (max-width: 900px) {
+    #navbar{
+        left: 590px;
+    }
+}
+
